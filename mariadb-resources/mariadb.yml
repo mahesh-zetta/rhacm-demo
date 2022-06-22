@@ -3,7 +3,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: zts-claim1
-  namespace: mariadb
+  namespace: zts-xcrypt
 spec:
   accessModes:
     - ReadWriteOnce
