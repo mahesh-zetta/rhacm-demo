@@ -45,8 +45,6 @@ spec:
           volumeMounts:
           - name: existingvolumename
             mountPath: "/mnt/data"
-      nodeSelector:
-         hostname: 10.0.172.61
       volumes:
       - name: existingvolumename
         persistentVolumeClaim:
