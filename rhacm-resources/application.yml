@@ -5,15 +5,6 @@ metadata:
   name: mariadb
 ---
 apiVersion: apps.open-cluster-management.io/v1
-kind: Channel
-metadata:
-  name: mariadb-app
-  namespace: mariadb
-spec:
-  type: Git
-  pathname: https://github.com/mahesh-zetta/rhacm-demo.git 
----
-apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: ocp46-mngd-openshift2
