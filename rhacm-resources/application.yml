@@ -7,7 +7,6 @@ metadata:
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: ocp46-mngd-openshift2
   namespace: mariadb
 spec:
   clusterConditions:
